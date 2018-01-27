@@ -33,7 +33,7 @@ function handleMessage(req, id, sendMessage){
     var response = getRes(req);
     if(!response) response = getQuestionList();
 
-    sendMessage(response, id).then(() => {
+    sendMessage(req, id).then(() => {
         console.log('respond to \"' + req + '\" success');
         console.log(response);
     }).catch(err => {
