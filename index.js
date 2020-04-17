@@ -3,7 +3,7 @@ var handleMessage = require('./src/handleMessage.js');
 
 var userInfo = {
     email: 'nishanthalladi01@gmail.com',
-    password: 'gunners20108'
+    password: '*******'
 };
 
 var timeout = undefined; // 1000 for one second
